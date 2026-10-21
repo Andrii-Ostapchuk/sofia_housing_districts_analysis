@@ -1,0 +1,17 @@
+* **object_id**: Unique numeric identifier for the dataset row.
+* **regname**: Specific neighborhood or statistical sub-zone name (ж.к. Люлин - център).
+* **rajon**: Administrative district of Sofia (Люлин).
+* **area_sos500**: Area in square meters likely related to specific municipal zoning, public service infrastructure (Система за обслужване), or a 500m buffer zone.
+* **rzp_jilsgr**: Total Built-up Area (Разгъната застроена площ - РЗП) specifically for residential buildings (жилищни сгради), measured in square meters.
+* **rzp_all**: Total Built-up Area (РЗП) for all buildings in the zone, regardless of purpose.
+* **redukcia_20%**: The net usable indoor area. This is calculated by taking `rzp_all` and subtracting 20% to account for shared spaces (stairwells, corridors) and physical walls.
+* **ppl_30kvm**: Estimated population capacity of the zone if every resident occupies exactly 30 sq.m. of the net usable area (`redukcia_20%` / 30).
+* **ppl_35kvm**: Estimated population capacity based on an allowance of 35 sq.m. per person.
+* **ppl_40kvm**: Estimated population capacity based on an allowance of 40 sq.m. per person.
+* **area_ge**: The gross physical area of the zone in square meters, used as the baseline denominator for the density calculations.
+* **dens30_ppl_kvkm**: Population density expressed as people per square kilometer, based on the 30 sq.m. per person population estimate.
+* **dens35_ppl_kvkm**: Population density based on the 35 sq.m. per person estimate.
+* **dens40_ppl_kvkm**: Population density based on the 40 sq.m. per person estimate.
+* **id**: A unique alphanumeric identifier (UUID) for the geospatial feature.
+* **area_kv_m**: The exact algorithmically calculated physical area of the polygon geometry in square meters (closely matching `area_ge`).
+* **geometry**: The spatial coordinates defining the physical boundaries of the zone for GIS mapping.

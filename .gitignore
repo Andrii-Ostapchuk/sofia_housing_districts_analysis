@@ -1,0 +1,16 @@
+# Python environment and editor settings
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Passwords and keys
+.env
+
+# Raw scraped data: large, and it belongs to the website
+data/housing_listings_scraped/
+
+# Files the scripts can recreate
+results/intermediate/
+    
