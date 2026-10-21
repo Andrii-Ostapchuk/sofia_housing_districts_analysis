@@ -1,0 +1,13 @@
+dg_points_26_sofpr_20180808.geojson - KINDERGARTENS ACCESSIBILITY
+
+dkc_obsl_naselenie_grao_25_sofpl_20210100.geojson - HEALTHCARE INSTITUTIONS ACCESSIBILITY
+
+dostup_mgt_all_400_600_800m_overlap_20210300.geojson - PUBLIC TRANSPORT STOPS ACCESSIBILITY
+
+natovarv_sasht_polojenie_kk_072020_26_sofpl_20201118.geojson - DISTRICT BOUNDARIES
+
+parkomesta_25_cgm_20200900.geojson - PARKING ACCESSIBILITY
+
+parkove_400_800_1200_2000m_25_sofpr_20190000.geojson - PARKS ACCESSIBILITY
+
+uchilishta_points_26_sofpr_20180808.geojson - SCHOOLS ACCESSIBILITY
