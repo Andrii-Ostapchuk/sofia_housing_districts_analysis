@@ -1,3 +1,4 @@
-- decide what districts to include (a list of official districts?)
-- how to map the chosen districs to the ones in the data
-- how to normalize accessibility (start with something easier like schools)
+- how to map the SUBdistrics to the ones in the data
+- investigate kod_rayon that popped up in uchilishta_points_26_sofpr_20180808.geojson
+in other urban data files and map it to the district names, create a reliable index
+in sofia_municipality_official_24_districts

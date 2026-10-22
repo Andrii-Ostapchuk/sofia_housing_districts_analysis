@@ -1,0 +1,5 @@
+1. As the main point of analysis official 24 administrative districts of Sofia Municipality 
+were taken from a Wikipedia page. https://en.wikipedia.org/wiki/Districts_of_Sofia
+
+2. Since listings and urban data include further divisions of the districts it was concluded to 
+create another column 'subdistrict'.
