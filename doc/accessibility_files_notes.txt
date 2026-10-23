@@ -1,0 +1,19 @@
+districts:
+    district_boundaries - list of districts in cyrillic (rajon), subdistricts (regname) to be mapped.
+
+catchment areas:
+    public_transport_accessibility - districts and/or subdistricts and/or streets are contained in cyrillic caps (name_).
+    parks_accessibility - only location number provided for the polygons (name_).
+
+facilities:
+    schools_accessibility,
+    kindergartens_accessibility - have street names (adres) and district codes (kod_rayon)
+    parking_accessibility - has only central districts names (sf_rayon) and street names (mestopoloz).
+    ==============================
+    Should I map street names too? Probably yes
+    ==============================
+
+healthcare_accessibility - this file is not a list of clinics, it is already a finished accessibility result 
+    ('coeff', 'percent_serv', 'percent_unserv', 'tot_ppl_count', 'serv_ppl', 'unserv_ppl').
+    Displayed on a subdistrict level. No districts and sibdistricts names. Needs to be mapped through polygons.
+
