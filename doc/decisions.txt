@@ -2,4 +2,9 @@
 were taken from a Wikipedia page. https://en.wikipedia.org/wiki/Districts_of_Sofia
 
 2. Since listings and urban data include further divisions of the districts it was concluded to 
-create another column 'subdistrict'.
+create another column 'neighborhood'.
+
+3. Include neighborhoods only available in the scraped files.
+
+4. Not include streets since they are not clear in the property listings.
+
