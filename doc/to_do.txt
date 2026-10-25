@@ -1,1 +1,2 @@
-Try to improve match rate.
+Create a column for scraped files 'district' with consistent 24 official districts.
+Analyze districts separately on a district granularity.
