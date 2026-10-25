@@ -10,7 +10,3 @@ __pycache__/
 
 # Raw scraped data: large, and it belongs to the website
 data/housing_listings_scraped/
-
-# Files the scripts can recreate
-results/intermediate/
-    

@@ -17,8 +17,8 @@ schools = gpd.read_file(folder + r'\uchilishta_points_26_sofpr_20180808.geojson'
 
 parking_spaces = gpd.read_file(folder + r'\parkomesta_25_cgm_20200900.geojson')
 
-parks_accessibility = gpd.read_file(folder + r'\parkove_400_800_1200_2000m_25_sofpr_20190000.geojson')
-public_transport_accessibility = gpd.read_file(folder + r'\dostup_mgt_all_400_600_800m_overlap_20210300.geojson')
+parks_catchment_areas = gpd.read_file(folder + r'\parkove_400_800_1200_2000m_25_sofpr_20190000.geojson')
+public_transport_catchment_areas = gpd.read_file(folder + r'\dostup_mgt_all_400_600_800m_overlap_20210300.geojson')
 
 
 healthcare_coverage = gpd.read_file(folder + r'\dkc_obsl_naselenie_grao_25_sofpl_20210100.geojson')

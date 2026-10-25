@@ -3,11 +3,11 @@ dg_points_26_sofpr_20180808.geojson - kindergartens
 dkc_obsl_naselenie_grao_25_sofpl_20210100.geojson - healthcare_coverage
     on a neighborhood granularity
 
-dostup_mgt_all_400_600_800m_overlap_20210300.geojson - public_transport_accessibility
+dostup_mgt_all_400_600_800m_overlap_20210300.geojson - public_transport_catchment_areas
 
 parkomesta_25_cgm_20200900.geojson - parking_spaces
 
-parkove_400_800_1200_2000m_25_sofpr_20190000.geojson - parks_accessibility
+parkove_400_800_1200_2000m_25_sofpr_20190000.geojson - parks_catchment_areas
 
 uchilishta_points_26_sofpr_20180808.geojson - schools
 
