@@ -11,6 +11,7 @@ folder = r'D:\Data Analysis\5_Projects\sofia_housing_districts_analysis\data\sof
 # Reads files from urban data
 districts = gpd.read_file(folder + r'\natovarv_sasht_polojenie_kk_072020_26_sofpl_20201118.geojson')
 district_codes = gpd.read_file(folder + r'\districts_26_nag_20170101.geojson')
+heighborhoods = gpd.read_file(folder + r'\kvartali_26_sofpr_20190101.geojson')
 
 kindergartens = gpd.read_file(folder + r'\dg_points_26_sofpr_20180808.geojson')
 schools = gpd.read_file(folder + r'\uchilishta_points_26_sofpr_20180808.geojson')
