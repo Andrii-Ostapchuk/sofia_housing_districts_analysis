@@ -1,2 +1,1 @@
-Clean location names.
-Match location names to neighborhood names.
+Improve match rate of location names to neighborhood names.
