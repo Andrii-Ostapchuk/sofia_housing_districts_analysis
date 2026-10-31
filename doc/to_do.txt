@@ -1,2 +1,1 @@
 Match spacially 24 districts to heighborhoods, add a 'distric' column to scraped files.
-Improve namings.
