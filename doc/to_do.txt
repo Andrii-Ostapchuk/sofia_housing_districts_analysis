@@ -1,2 +1,9 @@
-Match spacially 24 districts to heighborhoods, add a 'distric' column to scraped files.
 Write naming conventions in the notes.
+
+Create files:
+    neighborhoods_schools_accessibility.csv
+    neighborhoods_kindergartens_accessibility.csv
+    neighborhoods_parking_accessibility.csv
+    neighborhoods_parks_accessibility.csv
+    neighborhoods_public_transport_accessibility.csv
+    neighborhoods_healthcare_accessibility.csv

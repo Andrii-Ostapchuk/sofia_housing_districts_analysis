@@ -3,11 +3,18 @@ As the main point of analysis official 24 administrative districts of Sofia Muni
 Each location point corresponds to a neighborhood. First they need to be mapped to be able to visualize locations
 on the map.
 
-Each district accessibility topic will be contained in a separate file with all relevant data.
+Since neighborhoods are not always fully contained inside districts it was decided to generate a file 
+showing the percentage of a neighborhood's territory inside overlapping districts.
+
+Each neighborhood accessibility topic will be contained in a separate file with all relevant data.
 The following files to be created:
-    districts_schools_accessibility.csv
-    districts_kindergartens_accessibility.csv
-    districts_parking_accessibility.csv
-    districts_parks_accessibility.csv
-    districts_public_transport_accessibility.csv
-    districts_healthcare_accessibility.csv
+    neighborhoods_schools_accessibility.csv
+    neighborhoods_kindergartens_accessibility.csv
+    neighborhoods_parking_accessibility.csv
+    neighborhoods_parks_accessibility.csv
+    neighborhoods_public_transport_accessibility.csv
+    neighborhoods_healthcare_accessibility.csv
+
+
+
+How to calculate accessibility?

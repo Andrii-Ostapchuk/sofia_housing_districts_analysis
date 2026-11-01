@@ -4,6 +4,7 @@ Defines the variables from https://urbandata.sofia.bg/ website.
 
 import pandas as pd
 import geopandas as gpd
+import cyrtranslit
 
 # Gets the folder directory where urban data is located to avoid duplication
 folder = r'D:\Data Analysis\5_Projects\sofia_housing_districts_analysis\data\sofia_data\urbandata_sofia_bg'
@@ -27,3 +28,9 @@ healthcare_coverage = gpd.read_file(folder + r'\dkc_obsl_naselenie_grao_25_sofpl
 
 
 
+def to_latin_bg(name):
+    """
+    Transcribes a bulgarian cyrillic name into latin.
+    """
+    name = cyrtranslit.to_latin(name, 'bg')
+    return name.replace('Ă', 'A').replace('ă', 'a') # Removing special characters
