@@ -1,9 +1,3 @@
 Write naming conventions in the notes.
 
-Create files:
-    neighborhoods_schools_accessibility.csv
-    neighborhoods_kindergartens_accessibility.csv
-    neighborhoods_parking_accessibility.csv
-    neighborhoods_parks_accessibility.csv
-    neighborhoods_public_transport_accessibility.csv
-    neighborhoods_healthcare_accessibility.csv
+Think of a better way to measure catchment areas.
